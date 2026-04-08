@@ -1,0 +1,97 @@
+.employee-card-container {
+  background: linear-gradient(145deg, #1a1a1a, #111);
+  border: 1px solid #c5a059; /* Corporate Gold */
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(197, 160, 89, 0.05);
+}
+
+.verification-badge {
+  background: rgba(88, 194, 141, 0.1);
+  color: #58c28d;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(88, 194, 141, 0.2);
+}
+
+.id-tag {
+  color: #c5a059;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.employee-name {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.divider-gold {
+  height: 2px;
+  width: 50px;
+  background: #c5a059;
+  margin: 0 auto 25px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.info-item label {
+  display: block;
+  color: #555;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  color: #ddd;
+  font-size: 0.95rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.security-footer {
+  border-top: 1px solid #222;
+  padding-top: 20px;
+}
+
+.security-footer p {
+  font-size: 0.7rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.done-btn {
+  background: transparent;
+  color: #c5a059;
+  border: 1px solid #c5a059;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.done-btn:hover {
+  background: #c5a059;
+  color: #000;
+}
