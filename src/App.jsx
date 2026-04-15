@@ -53,6 +53,7 @@ function App() {
         <VerificationModal 
           onClose={() => setShowModal(false)} 
           onResult={handleVerificationResult} 
+
         />
       )}
 
@@ -61,19 +62,20 @@ function App() {
         <EmployeeCard 
           employee={employee} 
           onReset={resetApp} 
+        onVerifyClick={() => setShowModal(true)} 
         />
       )}
 
     
 
       {/* 4. Failure State: Access Denied */}
-{status === 'denied' && (
+{/* {status === 'denied' && (
   <div className="fade-in" style={{
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     padding: '20px'
-  }}>
+    }}>
     <div style={{
       background: 'linear-gradient(145deg, #1a1111, #0f0f0f)',
       border: '1px solid #ff4d4d',
@@ -138,7 +140,7 @@ function App() {
       </button>
     </div>
   </div>
-)}
+)} */}
     </div>
   );
 }
